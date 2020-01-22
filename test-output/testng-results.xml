@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LocationSuite" duration-ms="113829" started-at="2020-01-23T00:14:43Z" finished-at="2020-01-23T00:16:37Z">
+    <groups>
+    </groups>
+    <test name="LocationTest" duration-ms="113829" started-at="2020-01-23T00:14:43Z" finished-at="2020-01-23T00:16:37Z">
+      <class name="Location.LocationTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:Location.LocationTest@4678c730]" name="launchBrowser" is-config="true" duration-ms="21000" started-at="2020-01-23T00:14:43Z" finished-at="2020-01-23T00:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com/?locale=in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="enterPassword(java.lang.String)[pri:0, instance:Location.LocationTest@4678c730]" name="enterPassword" duration-ms="929" started-at="2020-01-23T00:15:04Z" data-provider="getData1" finished-at="2020-01-23T00:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arijit13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:Location.LocationTest@4678c730]" name="stopDriver" is-config="true" duration-ms="4" started-at="2020-01-23T00:15:05Z" finished-at="2020-01-23T00:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:Location.LocationTest@4678c730]" name="launchBrowser" is-config="true" duration-ms="22551" started-at="2020-01-23T00:15:05Z" finished-at="2020-01-23T00:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com/?locale=in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="enterPassword(java.lang.String)[pri:0, instance:Location.LocationTest@4678c730]" name="enterPassword" duration-ms="154" started-at="2020-01-23T00:15:27Z" data-provider="getData1" finished-at="2020-01-23T00:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anuradha133]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:Location.LocationTest@4678c730]" name="stopDriver" is-config="true" duration-ms="0" started-at="2020-01-23T00:15:28Z" finished-at="2020-01-23T00:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:Location.LocationTest@4678c730]" name="launchBrowser" is-config="true" duration-ms="35089" started-at="2020-01-23T00:15:28Z" finished-at="2020-01-23T00:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com/?locale=in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="enterUserName(java.lang.String)[pri:0, instance:Location.LocationTest@4678c730]" name="enterUserName" duration-ms="936" started-at="2020-01-23T00:16:03Z" data-provider="getData" finished-at="2020-01-23T00:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arijit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserName -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:Location.LocationTest@4678c730]" name="stopDriver" is-config="true" duration-ms="0" started-at="2020-01-23T00:16:04Z" finished-at="2020-01-23T00:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:Location.LocationTest@4678c730]" name="launchBrowser" is-config="true" duration-ms="32935" started-at="2020-01-23T00:16:04Z" finished-at="2020-01-23T00:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.salesforce.com/?locale=in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="enterUserName(java.lang.String)[pri:0, instance:Location.LocationTest@4678c730]" name="enterUserName" duration-ms="118" started-at="2020-01-23T00:16:37Z" data-provider="getData" finished-at="2020-01-23T00:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anuradha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserName -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:Location.LocationTest@4678c730]" name="stopDriver" is-config="true" duration-ms="0" started-at="2020-01-23T00:16:37Z" finished-at="2020-01-23T00:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Location.LocationTest -->
+    </test> <!-- LocationTest -->
+  </suite> <!-- LocationSuite -->
+</testng-results>

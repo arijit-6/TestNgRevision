@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LocationSuite]">
+  <parameter name="url" value="https://login.salesforce.com/?locale=in"/>
+  <test thread-count="5" name="LocationTest(failed)">
+    <classes>
+      <class name="Location.LocationTest">
+        <methods>
+          <include name="enterPassword"/>
+          <include name="launchBrowser"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- Location.LocationTest -->
+    </classes>
+  </test> <!-- LocationTest(failed) -->
+</suite> <!-- Failed suite [LocationSuite] -->
